@@ -1,0 +1,10 @@
+^C:\USERS\Z\DESKTOP\GLFW-3.3.4\SRC\CMAKELISTS.TXT
+setlocal
+D:\otherApps\cmake\bin\cmake.exe -SC:/Users/z/Desktop/glfw-3.3.4 -BC:/Users/z/Desktop/glfw-3.3.4/build --check-stamp-file C:/Users/z/Desktop/glfw-3.3.4/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
