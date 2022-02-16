@@ -38,9 +38,6 @@
     <ClInclude Include="Box.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LightingShader.glsl">
-      <Filter>头文件\Shader</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="FragmentShader.glsl">

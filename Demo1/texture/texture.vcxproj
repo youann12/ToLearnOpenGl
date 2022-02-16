@@ -149,7 +149,6 @@
   <ItemGroup>
     <ClInclude Include="Box.h" />
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="LightingShader.glsl" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
